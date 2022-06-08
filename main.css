@@ -45,3 +45,12 @@ body {
     word-wrap: break-word;
     word-break: break-all;
 }
+
+input {
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: rgba(255,255,255,.75);
+}
