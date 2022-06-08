@@ -22,9 +22,10 @@ body {
 .calculator-grid > button {
     cursor: pointer;
     font-size: 2rem;
-    border: 1px solid white;
+    border: red solid 1px;
     outline: none;
     background-color: rgba(255,255,255,.75);
+    border-radius: 0 0 5% 5%;
 }
 
 .calculator-grid > button:hover {
@@ -44,6 +45,7 @@ body {
     padding: 20px;
     word-wrap: break-word;
     word-break: break-all;
+    border-radius: 5% 5% 0 0;
 }
 
 input {
